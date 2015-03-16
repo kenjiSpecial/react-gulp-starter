@@ -1,6 +1,6 @@
 #gulp-starter
 
-Inspiration from [greyplats/gulp-starter](https://github.com/greypants/gulp-starter)
+Based on [gulp-starter](https://github.com/kenjiSpecial/gulp-starter).
 
 Inclueds the folloing tools.
 
@@ -8,11 +8,12 @@ Inclueds the folloing tools.
 - SASS
 - BrowserSync
 - Imagemin
+- reactify
 
 ### Clone repo and Install npm dependencies
 
 ```
-git clone https://github.com/kenjiSpecial/gulp-starter && cd gulp-starter && rm -rf .git && git init && npm i
+git clone https://github.com/kenjiSpecial/react-gulp-starter && cd gulp-starter && rm -rf .git && git init && npm i
 ```
 
 ###"dev" folder is the folder when you develop.
