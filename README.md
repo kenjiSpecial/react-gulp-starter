@@ -13,7 +13,7 @@ Inclueds the folloing tools.
 ### Clone repo and Install npm dependencies
 
 ```
-git clone https://github.com/kenjiSpecial/react-gulp-starter && cd gulp-starter && rm -rf .git && git init && npm i
+git clone https://github.com/kenjiSpecial/react-gulp-starter && cd gulp-starter && rm -rf .git && git init && npm i && bower install
 ```
 
 ###"dev" folder is the folder when you develop.
