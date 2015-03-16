@@ -1,13 +1,15 @@
 var dest = "./dev";
 var product = "./product";
 var src = './src';
+var historyApiFallback = require('connect-history-api-fallback');
 
 module.exports = {
     browserSync: {
         server: {
             // Serve up our build folder
             baseDir: dest,
-            index  : 'index.html'
+            index  : 'index.html',
+            middleware: [ historyApiFallback]
         }
     },
     markup: {
