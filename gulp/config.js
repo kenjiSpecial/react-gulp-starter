@@ -28,6 +28,7 @@ module.exports = {
     scss: {
         src: src + "/scss/**/*.scss",
         dest: dest + "/css",
+        watchSrc: src + "/scss/{,*/}*.scss",
         product : product,
         settings: {
         },

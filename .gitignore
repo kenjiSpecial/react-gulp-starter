@@ -5,10 +5,11 @@
 node_modules
 build
 *.node
-components
 coverage
 *.orig
 .idea
+product
+dev
 sandbox
 test/out-fixtures/*
 test/watch-*.txt
